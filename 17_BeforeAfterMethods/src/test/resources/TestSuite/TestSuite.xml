@@ -21,7 +21,7 @@
         </classes>
     </test>
 
--->
+
 
     <test name="NegativeLoginTest-1">
         <parameter name="kullaniciEmailAdresi" value="abcdef@gmail.com"></parameter>
@@ -46,6 +46,17 @@
                     <include name="yanlisEmailDogruSifre" />
                 </methods>
             </class>
+        </classes>
+    </test>
+
+    -->
+
+    <test name="BeforeAfter">
+        <parameter name="kullaniciEmailAdresi" value="abcdefsdfs@gmail.com"></parameter>
+        <parameter name="kullaniciSifre" value="udemySelenium!"></parameter>
+        <parameter name="tarayici" value="firefox"></parameter>
+        <classes>
+            <class name="com.vuealfasoftware.webapp.BeforeAfter"></class>
         </classes>
     </test>
 
