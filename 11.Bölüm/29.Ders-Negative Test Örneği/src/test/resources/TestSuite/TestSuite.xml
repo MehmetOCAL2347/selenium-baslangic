@@ -1,0 +1,71 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" verbose="1" >
+    <!--
+    <test name="LoginTest" >
+        <classes>
+            <class name="com.vuealfasoftware.webapp.LoginTest" />
+        </classes>
+    </test>
+
+    <test name="NegativeLoginTest">
+        <parameter name="kullaniciEmailAdresi" value="abcdef@gmail.com"></parameter>
+        <parameter name="kullaniciSifre" value="abcdefff"></parameter>
+        <groups>
+            <run>
+                <exclude name="dogruSifre"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.vuealfasoftware.webapp.NegativeLoginTest"></class>
+        </classes>
+    </test>
+
+
+
+    <test name="NegativeLoginTest-1">
+        <parameter name="kullaniciEmailAdresi" value="abcdef@gmail.com"></parameter>
+        <parameter name="kullaniciSifre" value="abcdefff"></parameter>
+        <parameter name="tarayici" value="chrome"></parameter>
+        <classes>
+            <class name="com.vuealfasoftware.webapp.NegativeLoginTest">
+                <methods>
+                    <include name="yanlisEmailYanlisSifre" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="NegativeLoginTest-2">
+        <parameter name="kullaniciEmailAdresi" value="abcdefsdfs@gmail.com"></parameter>
+        <parameter name="kullaniciSifre" value="udemySelenium!"></parameter>
+        <parameter name="tarayici" value="firefox"></parameter>
+        <classes>
+            <class name="com.vuealfasoftware.webapp.NegativeLoginTest">
+                <methods>
+                    <include name="yanlisEmailDogruSifre" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    -->
+<!--
+    <test name="BeforeAfter" >
+        <parameter name="kullaniciEmailAdresi" value="abcdefsdfs@gmail.com"></parameter>
+        <parameter name="kullaniciSifre" value="udemySelenium!"></parameter>
+        <parameter name="tarayici" value="firefox"></parameter>
+        <classes>
+            <class name="com.vuealfasoftware.webapp.BeforeAfter"></class>
+        </classes>
+    </test>
+
+-->
+    
+    <test name="TestAdımları">
+        <classes>
+            <class name="com.vuealfasoftware.webapp.TestAdımları"></class>
+        </classes>
+    </test>
+    
+</suite>
